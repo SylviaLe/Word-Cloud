@@ -138,7 +138,7 @@ def main():
     win2 = GraphWin("Result", 800, 800)
     win2.setCoords(0, 0, 400, 400)
     win2.setBackground("white")
-    res = Image(Point(200,200), 'Word Cloud.png')
+    res = Image(Point(200,200), 'WordCloud.png')
     res.draw(win2)
     win2.getMouse()
     win2.close()
